@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="quiz">
+
+        <h1 class="title">Quiz Instructions</h1>
+
+        <!--Question 1-->
+        <div class="question one">
+            <h2 class="questiontitle">Question 1</h2>
+            <p class="questiontext">What year did the Lakers last win the championship?</p>
+        
+            <input type="radio" name="answer1" value="2021">2021<br>
+            <input type="radio" name="answer1" value="2010">2010<br>
+            <input type="radio" name="answer1" value="2009">2009<br>
+            <input type="radio" name="answer1" value="2020" id="correct1">2020<br>
+        
+            <p id="answer1"></p>
+        </div>
+
+        <!--Question 2-->
+        <div class="question two">
+            <h2 class="questiontitle">Question 2</h2>
+            <p class="questiontext">What year was LeBron James drafted?</p>
+            
+            <input type="radio" name="answer2">2001<br>    
+            <input type="radio" name="answer2" id="correct2">2003<br>
+            <input type="radio" name="answer2">2004<br>
+            <input type="radio" name="answer2">2002<br>
+            
+            <p id="answer2"></p>
+        </div>
+
+        <!--Question 3-->
+        <div class="question three">
+            <h2 class="questiontitle">Question 3</h2>
+            <p class="questiontext">How many championships did Tom Brady win in his career?</p>
+          
+            <input type="radio" name="answer3">1<br>  
+            <input type="radio" name="answer3">5<br>
+            <input type="radio" name="answer3" id="correct3">7<br>
+            <input type="radio" name="answer3">8<br>
+            
+            <p id="answer3"></p> 
+        </div>
+
+        <input type="submit" name="submit" value="Submit" id="button" onclick="submitButton()">
+      
+       
+        
+
+    </div>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
